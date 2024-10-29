@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>click ME</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .button-container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button{
+            width: 400px;
+            height: 400px;
+            background-color: rgb(41, 38, 38);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .small-button{
+            width: 200px;
+            height: 200px;
+            border: 8px solid white;
+            border-top: 0px;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .small-button:active{
+            border-color: rgb(181, 174, 174);
+        }
+
+        .line{
+            position: absolute;
+            left: 48%;
+            bottom: 80%;
+            height: 70px;
+            width: 6px;
+            border-radius: 3px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+    <div class="button">
+        <a href="http://127.0.0.1:5500/PORFOLIO/index.html" class="small-button">
+            <div class="line">
+
+            </div>
+        </a>
+    </div>
+</div>
+</body>
+</html>
